@@ -3,6 +3,7 @@ const toDoList=document.getElementById("todo-list");
 const toDoInput=toDoForm.querySelector("input");
 //const toDoInput=document.querySelector("#todo-form input"); 과 동일
 const toDos=[];
+const TODOS_KEY="todos";
 
 function deleteTodo(event){
     const li= event.target.parentElement;
@@ -10,7 +11,7 @@ function deleteTodo(event){
 }
 
 function saveToDos(){
-    localStorage.setItem("todos",JSON.stringify(toDos));
+    localStorage.setItem(TODOS_KEY,JSON.stringify(toDos));
 }
 
 function paintToDo(newTodo){
@@ -34,3 +35,15 @@ function handleToDoSubmit(event){
     saveToDos();
 }
 toDoForm.addEventListener("submit", handleToDoSubmit);
+
+function sayHello(item){
+
+}
+
+const savedToDos= localStoage.getItem(TODOS_KEY);
+if(savedToDos!==null){
+    const parsedToDos = JSON.parse(savedToDos);
+    parsedToDos.forEach(sayHello);
+    //parsedToDos.forEach((item)=> console.log("this is the turn of",item)); 
+    //함수 작성안하고 allow function을 이용 할 수 있음
+}
