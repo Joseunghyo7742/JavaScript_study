@@ -11,4 +11,3 @@ const bgImg=document.createElement("img");
 bgImg.src=`img/${randomImg}`; //아직 js에만 존재 
 document.body.appendChild(bgImg);
 //appendChild: body에 html을 추가 
-console.log(bgImg); 
