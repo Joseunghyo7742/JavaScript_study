@@ -63,5 +63,54 @@ body,html{
     font-size: 24px;
     line-height: 35px;
     color: #F5F5F5;
+}
+#weather{
+    position: absolute;
+    width: 160px;
+    height: 24px;
+    left: 1370px;
+    top: 18px;
+    font-family: Lucida Fax;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #F5F5F5;
+}
+#quote{
+    position: absolute;
+    width: 900px;
+    height: 35px;
+    left: 300px;
+    top: 600px;
+    font-family: Lucida Fax;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    color: #F5F5F5;
+}
+#todolist{
+    position: absolute;
+    width: 127px;
+    height: 35px;
+    left: 545px;
+    top: 300px;
+    font-family: Lucida Fax;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #F5F5F5;
+}
+#todo-form input{
     
+    width: 400px;
+    height: 35px;
+    left: 545px;
+    top: 360px;
+    background: #F7F7F7;
+    border: 1px solid #6B6B6B;
+    box-sizing: border-box;
 }
