@@ -35,5 +35,33 @@ body,html{
     font-size:20px;
 }
 #clock{
-    margin:0;
+    position: absolute;
+    width: 450px;
+    height: 140px;
+    left: 535px;
+    top: 160px;
+    margin:0px;
+    font-family: Lucida Fax;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 199px;
+    -webkit-text-stroke: 3px #ffffff;
+    color: #ffffff;
+    color:rgba(255,255,255,0);    
+}
+#greeting{
+    position: absolute;
+    width: 240px;
+    height: 35px;
+    left: 545px;
+    top: 160px;
+    margin: 1px;
+    font-family: Lucida Fax;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #F5F5F5;
+    
 }
