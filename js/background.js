@@ -7,7 +7,8 @@ const images=[
 ];
 const randomImg=images[Math.floor(Math.random()*images.length)];
 
-const bgImg=document.createElement("img");
-bgImg.src=`img/${randomImg}`; //아직 js에만 존재 
-document.body.appendChild(bgImg);
+document.body.style.backgroundImage= "url(img/" + randomImg + ')';
+    // const bgImg=document.createElement("img");
+    // bgImg.src=`img/${randomImg}`; //아직 js에만 존재 
+    // document.body.appendChild(bgImg);
 //appendChild: body에 html을 추가 

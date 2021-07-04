@@ -1,3 +1,39 @@
 .hidden{
     display:none;
 }
+body,html{
+    background-color:white;
+    margin:0;
+    padding:0;
+    height:100%;
+    background-size: 100% 100%;
+}
+#ask{
+    position: absolute;
+    width: 728px;
+    height: 91px;
+    left: 356px;
+    top: 270px;
+    font-family: Lucida Fax;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 6px 6px 3px rgba(223, 223, 223, 0.25), 1px 1px #545454;
+}
+#login-form input{
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 515px;
+    top: 340px;
+    background: #FCFCFC;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    font-size:20px;
+}
+#clock{
+    margin:0;
+}
