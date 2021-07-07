@@ -3,7 +3,7 @@
 // use this for Valina Javscript.
 'use strict';
 
-// 2. Variable
+// 2. Variable (read, write)
 //let (added in ES6)
 //don't use var!
 //var hoisting (move declaration from bottom to top)
@@ -16,7 +16,13 @@ console.log(name);
 }
 console.log (name);
 
-//3. Constants
+//3. Constants, r (read only)
+//use const whenever possible.
+// only use let if variable needs to change.
+
+//Note!
+//Immutable data types: premitive types, frozen objects
+//Mutable data types: all objects by default are mutable in JS
 //favor immutable data type always for a few reasons:
 // -security
 // -thread safety
